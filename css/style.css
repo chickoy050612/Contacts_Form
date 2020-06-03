@@ -1,0 +1,29 @@
+/* Redfinitions */
+a:hover {
+	text-decoration: underline;
+}
+a {
+	text-decoration: none;
+	color: #00F;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: lightgrey;
+}
+h1 {
+	color: blue;
+}
+h2 {
+	color: green;
+}
+input[type=submit]:hover {
+	color: white;
+	background-color: green;
+}
+input[type=submit] {
+	background-color: yellow;
+}
+
+.err_msgs {
+	color: red;
+}
